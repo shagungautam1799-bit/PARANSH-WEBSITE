@@ -39,27 +39,34 @@ body{
 }
 
 .logo{
-    display: flex;
-    align-items: center;
-    gap: 12px;
+    display:flex;
+    align-items:center;
+    gap:15px;
 }
 
 .logo img{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;      /* Logo ko circle bana dega */
-    object-fit: cover;       /* Image crop hoke circle fill karegi */
-    border: 2px solid #b68a35;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid #b68a35;
 }
 
-.logo span{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 34px;
-    font-weight: 700;
-    color: #6f1d2b;
-    letter-spacing: 2px;
+.logo-text h2{
+    margin:0;
+    font-size:34px;
+    font-family:'Cormorant Garamond', serif;
+    color:#6f1d2b;
+    letter-spacing:2px;
 }
 
+.logo-text p{
+    margin:0;
+    font-size:14px;
+    letter-spacing:4px;
+    color:#8a6b32;
+    text-transform:uppercase;
+}
 .nav-links{
 
     display:flex;
