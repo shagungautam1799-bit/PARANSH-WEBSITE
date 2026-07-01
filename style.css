@@ -39,15 +39,25 @@ body{
 }
 
 .logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 
-    font-size:34px;
-    font-weight:700;
-    letter-spacing:3px;
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;      /* Logo ko circle bana dega */
+    object-fit: cover;       /* Image crop hoke circle fill karegi */
+    border: 2px solid #b68a35;
+}
 
-    color:#6f1d2b;
-
-    font-family:'Cormorant Garamond',serif;
-
+.logo span{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #6f1d2b;
+    letter-spacing: 2px;
 }
 
 .nav-links{
