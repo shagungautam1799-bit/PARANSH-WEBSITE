@@ -879,3 +879,37 @@ body{
     }
 
 }
+/* ===========================
+   MOBILE NAVBAR
+=========================== */
+
+.menu-toggle{
+    display:none;
+    font-size:32px;
+    cursor:pointer;
+    color:#6f1d2b;
+}
+
+@media(max-width:768px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+        flex-direction:column;
+        width:100%;
+        text-align:center;
+        margin-top:20px;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    .nav-icons{
+        display:none;
+    }
+
+}
