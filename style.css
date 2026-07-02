@@ -928,3 +928,43 @@ body{
 .footer-social i{
     margin-right:10px;
 }
+/* ===========================
+   BACK TO TOP BUTTON
+=========================== */
+
+#backToTop{
+
+    position:fixed;
+
+    bottom:110px;
+    right:30px;
+
+    width:55px;
+    height:55px;
+
+    border:none;
+    border-radius:50%;
+
+    background:#6f1d2b;
+    color:#fff;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    display:none;
+
+    z-index:999;
+
+    transition:.3s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+}
+
+#backToTop:hover{
+
+    background:#b68a35;
+    transform:translateY(-5px);
+
+}
