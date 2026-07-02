@@ -800,3 +800,87 @@ body{
     color:#888;
 
 }
+/* ===========================
+   PRODUCT GALLERY
+=========================== */
+
+.gallery{
+
+    padding:100px 8%;
+    background:#fff;
+
+}
+
+.gallery h2{
+
+    text-align:center;
+    font-size:55px;
+    color:#6f1d2b;
+    font-family:'Cormorant Garamond',serif;
+    margin-bottom:15px;
+
+}
+
+.gallery-subtitle{
+
+    text-align:center;
+    color:#666;
+    font-size:18px;
+    margin-bottom:50px;
+
+}
+
+.gallery-container{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+
+}
+
+.gallery-card{
+
+    background:#fdf8f4;
+    border-radius:20px;
+    padding:40px 20px;
+    text-align:center;
+    transition:.4s;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.gallery-card:hover{
+
+    transform:translateY(-10px);
+    box-shadow:0 18px 35px rgba(0,0,0,.15);
+
+}
+
+.gallery-image{
+
+    width:120px;
+    height:120px;
+
+    margin:auto;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:55px;
+
+    background:#fff;
+
+    border-radius:50%;
+
+    margin-bottom:25px;
+
+}
+
+.gallery-card h3{
+
+    color:#6f1d2b;
+    font-size:28px;
+    font-family:'Cormorant Garamond',serif;
+
+}
