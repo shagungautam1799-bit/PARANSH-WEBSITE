@@ -913,3 +913,18 @@ body{
     }
 
 }
+.nav-icons i{
+    font-size:22px;
+    cursor:pointer;
+    transition:.3s;
+    color:#333;
+}
+
+.nav-icons i:hover{
+    color:#b68a35;
+    transform:scale(1.15);
+}
+
+.footer-social i{
+    margin-right:10px;
+}
