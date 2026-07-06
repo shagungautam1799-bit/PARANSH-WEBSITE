@@ -995,3 +995,18 @@ body{
     box-shadow:0 10px 30px rgba(0,0,0,.15);
 
 }
+.footer-contact h3{
+
+    color:#d4af37;
+    margin-bottom:15px;
+    font-family:'Cormorant Garamond', serif;
+
+}
+
+.footer-contact p{
+
+    color:#fff;
+    line-height:1.8;
+    margin-bottom:10px;
+
+}
