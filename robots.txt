@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shagungautam1799-bit.github.io/PARANSH-WEBSITE/sitemap.xml
