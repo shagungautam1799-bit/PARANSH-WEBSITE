@@ -261,6 +261,11 @@ body{
 }
 
 }
+.hero-buttons{
+
+    justify-content:center;
+
+}
 /* ===========================
    COLLECTIONS
 =========================== */
@@ -1036,4 +1041,101 @@ body{
 .collection-btn:hover{
     background:#b68a35;
     transform:translateY(-3px);
+}
+.hero-left h2{
+
+    font-size:38px;
+    color:#b68a35;
+    font-family:'Cormorant Garamond',serif;
+    margin-bottom:20px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+
+}
+
+.hero-btn-outline{
+
+    background:transparent;
+    color:#6f1d2b;
+    border:2px solid #6f1d2b;
+
+}
+
+.hero-btn-outline:hover{
+
+    background:#6f1d2b;
+    color:#fff;
+
+}
+/* ===========================
+   HERO NEW DESIGN
+=========================== */
+
+.hero-tagline{
+
+    display:inline-block;
+    padding:10px 22px;
+    background:#f4e7cf;
+    color:#7a1f2d;
+    border-radius:40px;
+    font-size:15px;
+    font-weight:600;
+    margin-bottom:25px;
+    letter-spacing:1px;
+
+}
+
+.hero-left h2{
+
+    font-size:34px;
+    color:#b68a35;
+    font-family:'Cormorant Garamond',serif;
+    margin-bottom:20px;
+    letter-spacing:2px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+    gap:18px;
+    flex-wrap:wrap;
+
+}
+
+.hero-btn-outline{
+
+    background:transparent;
+    color:#7a1f2d;
+    border:2px solid #7a1f2d;
+
+}
+
+.hero-btn-outline:hover{
+
+    background:#7a1f2d;
+    color:#fff;
+
+}
+
+@media(max-width:768px){
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-tagline{
+
+    font-size:13px;
+
+}
+
 }
