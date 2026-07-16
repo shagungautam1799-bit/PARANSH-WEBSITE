@@ -1051,3 +1051,193 @@ html, body{
     color:#fff;
 
 }
+/* ===========================
+   BRIDAL HERO
+=========================== */
+
+.bridal-hero{
+    height:420px;
+    background:linear-gradient(135deg,#4B1420 0%, #7A1F2D 50%, #B68A35 100%);
+    position:relative;
+    overflow:hidden;
+}
+
+.bridal-hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.25);
+}
+
+.bridal-overlay{
+    position:relative;
+    z-index:2;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+}
+
+.bridal-content{
+    max-width:850px;
+}
+
+.breadcrumb{
+    color:#F5D67B;
+    letter-spacing:2px;
+    margin-bottom:20px;
+    font-size:15px;
+    text-transform:uppercase;
+}
+
+.bridal-content h1{
+    font-size:64px;
+    color:#fff;
+    font-family:'Cormorant Garamond', serif;
+    margin-bottom:20px;
+}
+
+.bridal-content p{
+    color:#f5f5f5;
+    font-size:19px;
+    line-height:1.8;
+}
+
+@media(max-width:768px){
+
+.bridal-content h1{
+    font-size:42px;
+}
+
+.bridal-content p{
+    font-size:16px;
+}
+
+}
+
+/* ===========================
+   BRIDAL PRODUCTS
+=========================== */
+
+.bridal-products{
+    padding:100px 8%;
+    background:#fdf8f4;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:54px;
+    font-family:'Cormorant Garamond',serif;
+    color:#6f1d2b;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    color:#666;
+    font-size:18px;
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.products-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:35px;
+}
+
+.product-card{
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 18px 45px rgba(0,0,0,.15);
+}
+
+.product-image{
+    height:340px;
+    background:#f3eee7;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.product-image i{
+    font-size:80px;
+    color:#b68a35;
+}
+
+.product-info{
+    padding:30px;
+}
+
+.product-code{
+    display:inline-block;
+    background:#f4e7cf;
+    color:#7a1f2d;
+    padding:6px 14px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.product-info h3{
+    font-size:30px;
+    color:#6f1d2b;
+    font-family:'Cormorant Garamond',serif;
+    margin-bottom:15px;
+}
+
+.product-info p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:25px;
+}
+
+.product-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.view-btn,
+.whatsapp-btn{
+    flex:1;
+    text-align:center;
+    text-decoration:none;
+    padding:12px;
+    border-radius:40px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.view-btn{
+    background:#6f1d2b;
+    color:#fff;
+}
+
+.view-btn:hover{
+    background:#4b1420;
+}
+
+.whatsapp-btn{
+    background:#25D366;
+    color:#fff;
+}
+
+.whatsapp-btn:hover{
+    background:#1da851;
+}
+
