@@ -117,6 +117,10 @@ body{
     overflow:hidden;
 }
 
+html, body{
+    overflow-x:hidden;
+}
+
 .hero::before{
     content:"";
     position:absolute;
@@ -142,13 +146,14 @@ body{
 }
 
 .hero-left h2{
-    font-size:36px;
-    color:#5A0F1F;
     font-family:'Cormorant Garamond', serif;
+    font-size:52px;
     font-weight:700;
+    color:#4B1420;
+    margin-bottom:25px;
     letter-spacing:3px;
     text-transform:uppercase;
-    text-shadow:1px 1px 4px rgba(255,255,255,0.5);
+    text-shadow:0 2px 12px rgba(255,255,255,.9);
 }
 
 .hero-left p{
@@ -202,9 +207,10 @@ body{
 }
 
 .hero-model{
-    width:800px;
+    width:850px;
     max-width:none;
-    transform:translateY(100px);
+    height:auto;
+    transform:translate(0,100px);
 }
 
 @media(max-width:991px){
@@ -228,10 +234,6 @@ body{
     font-size:48px;
 }
 
-.hero-left h2{
-    font-size:24px;
-}
-
 .hero-left p{
     font-size:18px;
 }
@@ -240,63 +242,6 @@ body{
     justify-content:center;
     flex-wrap:wrap;
 }
-
-.hero-model{
-    width:340px;
-    margin-top:40px;
-}
-
-}
-
-/* ===========================
-   MOBILE
-=========================== */
-
-@media(max-width:991px){
-
-.hero-overlay{
-
-    flex-direction:column;
-
-    text-align:center;
-
-    padding:120px 30px 60px;
-}
-
-.hero-left,
-.hero-right{
-
-    width:100%;
-}
-
-.hero-left h1{
-
-    font-size:50px;
-}
-
-.hero-left p{
-
-    font-size:20px;
-
-    margin:auto auto 30px;
-}
-
-.hero-right{
-
-    justify-content:center;
-
-    margin-top:40px;
-}
-
-.hero-model{
-
-    width:380px;
-}
-
-}
-.hero-buttons{
-
-    justify-content:center;
 
 }
 /* ===========================
@@ -319,7 +264,9 @@ body{
 }
 
 .collection-container{
-    grid-template-columns:repeat(2,1fr);
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
 }
 
 .collection-card{
@@ -1075,13 +1022,11 @@ body{
     background:#b68a35;
     transform:translateY(-3px);
 }
-.hero-left h2{
-
-    font-size:38px;
-    color:#b68a35;
+.collections h2{
+    font-size:55px;
+    color:#6f1d2b;
     font-family:'Cormorant Garamond',serif;
-    margin-bottom:20px;
-
+    margin-bottom:60px;
 }
 
 .hero-buttons{
