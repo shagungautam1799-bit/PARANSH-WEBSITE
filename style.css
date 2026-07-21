@@ -1173,9 +1173,15 @@ html, body{
     align-items:center;
 }
 
-.product-image i{
-    font-size:80px;
-    color:#b68a35;
+.product-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.product-card:hover .product-image img{
+    transform:scale(1.08);
 }
 
 .product-info{
@@ -1239,5 +1245,43 @@ html, body{
 
 .whatsapp-btn:hover{
     background:#1da851;
+}
+
+/* ===========================
+   PRODUCT DETAILS STYLE
+=========================== */
+
+.export-badge{
+    display:inline-block;
+    background:#d4af37;
+    color:#fff;
+    padding:6px 14px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.product-specs{
+    margin:20px 0;
+    padding:18px;
+    background:#faf7f2;
+    border-radius:12px;
+    border-left:4px solid #b68a35;
+}
+
+.product-specs p{
+    margin:8px 0;
+    color:#555;
+    font-size:15px;
+}
+
+.product-specs strong{
+    color:#6f1d2b;
+}
+
+.product-info p{
+    line-height:1.8;
+    color:#666;
 }
 
