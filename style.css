@@ -1285,3 +1285,92 @@ html, body{
     color:#666;
 }
 
+/* ===========================
+   PRODUCT BADGE
+=========================== */
+
+.product-image{
+    position:relative;
+    overflow:hidden;
+}
+
+.product-badge{
+    position:absolute;
+    top:15px;
+    left:15px;
+    background:#6f1d2b;
+    color:#fff;
+    padding:8px 16px;
+    border-radius:30px;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:1px;
+    z-index:2;
+    box-shadow:0 6px 18px rgba(0,0,0,.15);
+}
+
+/* ===========================
+   WISHLIST ICON
+=========================== */
+
+.wishlist-icon{
+    position:absolute;
+    top:15px;
+    right:15px;
+    width:42px;
+    height:42px;
+    background:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    transition:.3s;
+    z-index:2;
+}
+
+.wishlist-icon i{
+    color:#6f1d2b;
+    font-size:18px;
+    transition:.3s;
+}
+
+.wishlist-icon:hover{
+    transform:scale(1.1);
+}
+
+.wishlist-icon:hover i{
+    color:#d62828;
+}
+
+/* ===========================
+   QUICK VIEW
+=========================== */
+
+.quick-view{
+    position:absolute;
+    left:0;
+    bottom:-60px;
+    width:100%;
+    text-align:center;
+    transition:.35s;
+}
+
+.quick-view a{
+    display:inline-block;
+    background:#6f1d2b;
+    color:#fff;
+    padding:12px 28px;
+    border-radius:30px;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:600;
+}
+
+.product-card:hover .quick-view{
+    bottom:20px;
+}
+
+
+
