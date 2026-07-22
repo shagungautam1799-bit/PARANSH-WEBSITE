@@ -1584,4 +1584,33 @@ html, body{
     background:#fdf8f4;
 }
 
+.footer-contact{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    max-width:320px;
+}
+
+.footer-contact h3{
+    margin-bottom:10px;
+    font-size:22px;
+    font-family:'Cormorant Garamond',serif;
+    color:#d8c29d;
+}
+
+.footer-contact p{
+    color:#fff;
+    line-height:1.7;
+}
+
+.footer-contact a{
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-contact a:hover{
+    color:#d8c29d;
+}
+
 
