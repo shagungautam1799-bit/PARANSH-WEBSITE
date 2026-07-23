@@ -636,12 +636,10 @@ html, body{
 
 }
 
-.whatsapp-float img{
+.whatsapp-float i{
 
-    width:34px;
-    height:34px;
-
-    filter:brightness(0) invert(1);
+    font-size:34px;
+    color:#fff;
 
 }
 /* ===========================
