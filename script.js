@@ -91,3 +91,33 @@ if (backToTop) {
     });
 
 }
+
+// ===========================
+// PRODUCT IMAGE GALLERY
+// ===========================
+
+const mainProductImage = document.getElementById("mainProductImage");
+const thumbnails = document.querySelectorAll(".thumbnail");
+
+if (mainProductImage && thumbnails.length > 0) {
+
+    thumbnails.forEach((thumb) => {
+
+        thumb.addEventListener("click", () => {
+
+            // Change Main Image
+            mainProductImage.src = thumb.src;
+
+            // Remove Active Class
+            thumbnails.forEach((item) => {
+                item.classList.remove("active");
+            });
+
+            // Add Active Class
+            thumb.classList.add("active");
+
+        });
+
+    });
+
+}
